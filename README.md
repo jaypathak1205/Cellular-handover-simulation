@@ -26,14 +26,20 @@ Completed Calls
 
 ⚙️ Parameters
 The following parameters can be configured inside parameter_sweep_heatmap.m:
+
 p_handover_vals: Range of handover probabilities (e.g., 0.1:0.1:0.9)
+
 channel_vals: Range of channel counts per cell (e.g., 5:5:30)
+
 Tsim: Total simulation time (e.g., 5000)
+
 lambda: Call arrival rate (e.g., 0.1)
+
 mu: Call duration rate (e.g., 1/180 for average 180s call)
 
 🛠️ Requirements
 MATLAB R2016b or later
+
 No external toolboxes required
 
 Made by - Jayesh Pathak 

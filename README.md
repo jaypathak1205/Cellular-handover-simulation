@@ -18,28 +18,36 @@ This MATLAB project simulates call traffic and handovers in a three-cell cellula
 
 ---
 
-The simulation will generate 3 heatmaps:
+## 📈 Simulation Output
 
-Blocked Calls
-Dropped Calls
-Completed Calls
+The simulation will generate **3 heatmaps**:
 
-⚙️ Parameters
-The following parameters can be configured inside parameter_sweep_heatmap.m:
+- **Blocked Calls**
+- **Dropped Calls**
+- **Completed Calls**
 
-p_handover_vals: Range of handover probabilities (e.g., 0.1:0.1:0.9)
+---
 
-channel_vals: Range of channel counts per cell (e.g., 5:5:30)
+## ⚙️ Parameters
 
-Tsim: Total simulation time (e.g., 5000)
+The following parameters can be configured inside `parameter_sweep_heatmap.m`:
 
-lambda: Call arrival rate (e.g., 0.1)
+- `p_handover_vals`: Range of handover probabilities (e.g., `0.1:0.1:0.9`)
+- `channel_vals`: Range of channel counts per cell (e.g., `5:5:30`)
+- `Tsim`: Total simulation time (e.g., `5000`)
+- `lambda`: Call arrival rate (e.g., `0.1`)
+- `mu`: Call duration rate (e.g., `1/180` for average 180s call)
 
-mu: Call duration rate (e.g., 1/180 for average 180s call)
+---
 
-🛠️ Requirements
-MATLAB R2016b or later
+## 🛠️ Requirements
 
-No external toolboxes required
+- MATLAB R2016b or later  
+- No external toolboxes required
 
-Made by - Jayesh Pathak 
+---
+
+## 👨‍💻 Made by
+
+**Jayesh Pathak**
+
